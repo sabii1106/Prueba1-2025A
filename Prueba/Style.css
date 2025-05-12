@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#General {
+
+   
+    margin: 2% 4% 6% 4%;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+#Header {
+    background-color: #773f06;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-color: #000000;
+   
+    
+
+}
+
+#Menus{
+
+    background-color: #fd9800;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    border-color: #000000;
+    border-style: solid;
+  
+    margin: 0.165% 0% 0% 0%;
+   
+}
+
+
+#Registro{
+    background-color: #ffffff;
+    flex: 1;
+    border: 10% 10% 10% 10%;
+    display: flex;
+    flex-direction : column;
+    justify-content: center;
+    border-style: solid;
+    padding: 10px;
+    margin: 1% 0% 1% 1%;
+    padding: 1% 7% 1% 7%;
+    flex-wrap: wrap;
+    
+
+}
+
+#Login{
+    flex: 2;
+    background-color: #ffffff;
+     display: flex;
+    flex-direction : column;
+    justify-content: center;
+    border: 10% 10% 10% 10%;
+    border-style: solid;
+    margin: 1% 1% 1% 3%;
+    padding: 1% 8% 1% 8%;
+    height: 12%;
+
+}
+
+button{
+  background-color: #065592;
+    border-style: solid; /* Borde sólido para los lados superior e izquierdo */
+    border-color: #000000;
+    color: white;
+    border-width: 1px 3px 3px 1px; /* Grosor del borde: top, right, bottom, left */
+    width: 40%;
+    justify-content: center;
+    font-size: 14px; /* Ajusta el tamaño del texto si es necesario */
+    padding: 1% 1%;
+    font-display: swap;
+}
+
+h2{
+    text-align: center;
+
+    color: #000000;
+}
+input{
+    border: 2px solid #000000;
+
+}
