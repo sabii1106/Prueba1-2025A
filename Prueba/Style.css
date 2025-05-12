@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-family: 'Nunito', sans-serif;
 }
+
 
 #General {
 
@@ -71,13 +74,26 @@
 
 }
 
-button{
+#btnRegister{
   background-color: #065592;
     border-style: solid; /* Borde sólido para los lados superior e izquierdo */
     border-color: #000000;
     color: white;
     border-width: 1px 3px 3px 1px; /* Grosor del borde: top, right, bottom, left */
-    width: 40%;
+    width: 50%;
+    justify-content: center;
+    font-size: 14px; /* Ajusta el tamaño del texto si es necesario */
+    padding: 1% 1%;
+    font-display: swap;
+}
+
+#btnLogin{
+ background-color: #065592;
+    border-style: solid; /* Borde sólido para los lados superior e izquierdo */
+    border-color: #000000;
+    color: white;
+    border-width: 1px 3px 3px 1px; /* Grosor del borde: top, right, bottom, left */
+    width: 30%;
     justify-content: center;
     font-size: 14px; /* Ajusta el tamaño del texto si es necesario */
     padding: 1% 1%;
