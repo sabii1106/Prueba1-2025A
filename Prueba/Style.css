@@ -85,6 +85,7 @@
     font-size: 14px; /* Ajusta el tamaño del texto si es necesario */
     padding: 1% 1%;
     font-display: swap;
+     margin: 0% 0% 0% 4%;
 }
 
 #btnLogin{
@@ -98,6 +99,7 @@
     font-size: 14px; /* Ajusta el tamaño del texto si es necesario */
     padding: 1% 1%;
     font-display: swap;
+    margin: 0% 0% 0% 4%;
 }
 
 h2{
